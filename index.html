@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title></title>
+</head>
+<body>
+    <h1>Test</h1>
+    <form onsubmit="outputDouble(); return false">
+        <input type="number" name="Number" id="number">
+        <input type="submit" value="Verdopple mich">
+        <div class="result"></div>
+    </form>
+
+
+
+    <article>
+    <p>Gib dein Geburtsjahr ein</p>
+    <form onsubmit="ageCalc(); return false">
+    <input type="number" name="YearOfBirth" id="YearOfBirth">
+    <input type="submit" value="Berechne mein Alter">
+    <div class="outputAgeDiv"></div>
+    </article>
+
+    <article>
+        <label for="inputAge1">Alter 1</label>
+        <input type="number" name="Alter 1" id="inputAge1">
+        <label for="inputAge2">Alter 2</label>
+        <input type="number" name="Alter 2" id="inputAge2">
+        <button onclick="agecalcdif(); return false">Berechne!</button>
+        <div><p class="outputAgeDif"></p></div>
+    </article>
+
+
+
+
+
+    <script src="./assets/js/main.js"></script>
+
+
+</body>
+</html>
